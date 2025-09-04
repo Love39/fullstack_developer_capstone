@@ -1,7 +1,7 @@
 img{
   width: 60%;
   align-self: center;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .card{
@@ -127,7 +127,6 @@ img{
 }
 
 .contact_bar {
-    position: fixed;
     bottom: 20px;
     right: 20px;
     display: flex;
@@ -158,4 +157,8 @@ img{
 }
 
 /* Brand Colours*/
-.linkedin { background: #0077B5;}
+.linkedin { background: #0077B5; }
+.email {background: #D44638; }
+.facebook {background: #1877F2; }
+.instagram {background: radial-gradient(circle at 30% 107%, #fdf497 0%,
+    #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
