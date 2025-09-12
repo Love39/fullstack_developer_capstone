@@ -121,7 +121,8 @@ def get_dealer_reviews(request, dealer_id):
             review_detail['sentiment'] = response['sentiment']
         return JsonResponse({"status":200,"reviews":reviews})
     else:
-        return JsonResponse({"status":400,"message":"Bad Request"})def get_dealer_reviews(request, dealer_id):
+        return JsonResponse({"status":400,"message":"Bad Request"})
+def get_dealer_reviews(request, dealer_id):
     # if dealer id has been provided
     if(dealer_id):
         endpoint = "/fetchReviews/dealer/"+str(dealer_id)
